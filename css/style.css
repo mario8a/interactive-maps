@@ -1,0 +1,62 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+section {
+   display: flex;
+   height: 100vh;
+}
+
+.map__img{
+   width: 50%;
+   height: 600px;
+}
+
+svg {
+   width: 100%;
+}
+
+li {
+   font-size: 2rem;
+   list-style: none;
+   cursor: pointer;
+}
+
+/* JS */
+
+.list-of-states li.on {
+   background: red;
+   color: white;
+   font-weight: bold;
+}
+
+
+path.on {
+   fill: red;
+}
+
+polygon.on {
+   fill: red;
+}
+polyline.on {
+   fill: red;
+}
+
+/* Hovers */
+
+path:hover {
+   fill: red;
+   transition: fill 0.3s;
+}
+
+polygon:hover {
+   fill: red;
+   transition: fill 0.3s;
+}
+
+polyline:hover {
+   fill: red;
+   transition: fill 0.3s;
+}
