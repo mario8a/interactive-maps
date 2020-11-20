@@ -122,3 +122,12 @@ polyline:hover {
 .title-linderos {
    text-align: center;
 }
+
+.vendido {
+   background-color: red;
+}
+
+.apartado {
+   color: black;
+   background-color: yellow;
+}
