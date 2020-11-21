@@ -5,8 +5,8 @@
 }
 
 section {
-   display: flex;
-   flex-direction: column;
+   max-width: 1200px;
+   width: 90%;
    height: 100vh;
 }
 
@@ -154,11 +154,12 @@ polyline:hover {
    }
    
    .map__list {
+      height: 100vh;
       width: 50%;
    }
 
    .map__list ul {
-      padding: 120px;
+      padding-top: 120px;
    }
 
    .card {
