@@ -69,5 +69,6 @@ function zoomOut() {
 
 function reset() {
   var myIMG = document.getElementById('mapaint');
-  myIMG.classList.add("reset");
+  // myIMG.classList.add("reset");
+  alert('Device not compatible')
 }
