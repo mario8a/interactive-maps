@@ -67,5 +67,5 @@ function zoomOut() {
 
 function reset() {
   var myIMG = document.getElementById('mapaint');
-  myIMG.style.width= '715px';
+  myIMG.style.width= '100%';
 }
