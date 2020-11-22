@@ -51,6 +51,7 @@ function zoomIn() {
      alert("maximo nivel de zom")
   } else {
      myIMG.style.width=(currWith+40) + "px";
+     myIMG.classList.remove("reset");
   }
 }
 
@@ -61,6 +62,12 @@ function zoomOut() {
   if(currWith == 40) {
      alert("maximo nivel de zom bako")
   } else {
+    myIMG.classList.remove("reset");
      myIMG.style.width = (currWith-40) + "px";
   }
+}
+
+function reset() {
+  var myIMG = document.getElementById('mapaint');
+  myIMG.classList.add("reset");
 }
