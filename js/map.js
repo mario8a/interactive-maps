@@ -51,7 +51,6 @@ function zoomIn() {
      alert("maximo nivel de zom")
   } else {
      myIMG.style.width=(currWith+40) + "px";
-     myIMG.classList.remove("reset");
   }
 }
 
@@ -59,16 +58,14 @@ function zoomOut() {
   var myIMG = document.getElementById('mapaint');
   var currWith = myIMG.clientWidth;
 
-  if(currWith == 40) {
-     alert("maximo nivel de zom bako")
+  if(currWith == 500) {
+     alert("Min lvl zoom")
   } else {
-    myIMG.classList.remove("reset");
      myIMG.style.width = (currWith-40) + "px";
   }
 }
 
 function reset() {
   var myIMG = document.getElementById('mapaint');
-  // myIMG.classList.add("reset");
-  alert('Device not compatible')
+  myIMG.style.width= '715px';
 }
