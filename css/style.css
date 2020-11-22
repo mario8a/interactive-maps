@@ -152,16 +152,16 @@ polyline:hover {
    section {
       display: flex;
       flex-direction: row;
-      height: 90vh;
+      /* height: 90vh; */
    }
    
    .map__img{
-      width: 50%;
+      width: 100%;
    }
    
    svg {
-      width: 100%;
-      height: 100%;
+      /* width: 100%; */
+      /* height: 650px; */
    }
    
    .map__list {
