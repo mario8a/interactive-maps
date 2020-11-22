@@ -45,7 +45,6 @@ svgStates.forEach(function(el) {
 function zoomIn() {
    
   var myIMG = document.getElementById('mapaint');
-  console.log(myIMG)
   var currWith = myIMG.clientWidth;
 
   if(currWith == 5000) {

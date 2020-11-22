@@ -4,15 +4,27 @@
    box-sizing: border-box;
 }
 
+/* buttons */
+
+.zoom-buttons {
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.zoom-buttons button {
+   margin: 10px;
+}
+
 section {
    max-width: 1200px;
    width: 90%;
-   height: 100vh;
+   /* height: 100vh; */
 }
 
 .map__img{
    width: 100%;
-   height: 100vh
+   /* height: 100vh */
 }
 
 svg {
@@ -140,12 +152,11 @@ polyline:hover {
    section {
       display: flex;
       flex-direction: row;
-      height: 100vh;
+      height: 90vh;
    }
    
    .map__img{
       width: 50%;
-      height: 100vh
    }
    
    svg {
@@ -154,7 +165,7 @@ polyline:hover {
    }
    
    .map__list {
-      height: 100vh;
+      height: 90vh;
       width: 50%;
    }
 
