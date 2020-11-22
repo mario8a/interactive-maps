@@ -38,3 +38,30 @@ svgStates.forEach(function(el) {
   });
 
 });
+
+
+//zoom mapa
+
+function zoomIn() {
+   
+  var myIMG = document.getElementById('mapaint');
+  console.log(myIMG)
+  var currWith = myIMG.clientWidth;
+
+  if(currWith == 5000) {
+     alert("maximo nivel de zom")
+  } else {
+     myIMG.style.width=(currWith+40) + "px";
+  }
+}
+
+function zoomOut() {
+  var myIMG = document.getElementById('mapaint');
+  var currWith = myIMG.clientWidth;
+
+  if(currWith == 40) {
+     alert("maximo nivel de zom bako")
+  } else {
+     myIMG.style.width = (currWith-40) + "px";
+  }
+}
