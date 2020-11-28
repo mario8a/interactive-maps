@@ -47,7 +47,7 @@ function zoomIn() {
   var myIMG = document.getElementById('mapaint');
   var currWith = myIMG.clientWidth;
 
-  if(currWith == 4000) {
+  if(currWith == 900) {
      alert("Max lvl Zoom")
   } else {
      myIMG.style.width=(currWith+40) + "px";

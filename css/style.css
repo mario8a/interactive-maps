@@ -22,6 +22,7 @@
 }
 
 section {
+   display: grid;
    max-width: 1200px;
    width: 90%;
    /* height: 100vh; */
@@ -46,7 +47,10 @@ svg {
    padding-bottom: 20px;
    max-width: 1200px;
    width: 95%;
-   margin: 0 40px;
+   margin-top: 0px;
+   /* margin-right: 40px; */
+   margin-bottom: 0px;
+   margin-left: 50px;
 }
 
 
@@ -57,6 +61,7 @@ svg {
    /* background: red; */
    /* color: white; */
    display: block;
+   /* grid-row: 1 / 2; */
 }
 
 .list-of-states li {
@@ -160,7 +165,7 @@ polyline:hover {
 }
 
 .medidas p {
-
+   font-size: 15px;
 }
 
 @media (min-width: 768px) {
